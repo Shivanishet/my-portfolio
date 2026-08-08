@@ -6,7 +6,7 @@ This portfolio showcases my projects, technical skills, education, and software 
 
 ## 🔗 Links
 
-- 🌐 **Live Portfolio:** https://my-portfolio-pink-ten-29.vercel.app
+- 🌐 **Live Portfolio:** https://my-portfolio-git-main-s-projects-4b1e1451.vercel.app
 - 💻 **GitHub:** https://github.com/Shivanishet
 - 💼 **LinkedIn:** https://www.linkedin.com/in/shivani-shet-147a73339
 
