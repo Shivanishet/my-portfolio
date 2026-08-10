@@ -3,7 +3,7 @@ import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Sparkles, Float } from '@react-three/drei';
 import * as THREE from 'three';
-import myPhoto from '../photo/my_photo.png';
+import photo1 from '../photo/photo1.png';
 
 // 3D background elements for the profile picture
 function ProfileScene() {
@@ -120,7 +120,7 @@ export default function ProfilePhoto() {
           {/* Photo */}
           <div className="relative w-full h-full rounded-[14px] overflow-hidden bg-space-800">
             <img 
-              src={myPhoto} 
+              src={photo1} 
               alt="Shivani Shet Profile" 
               className="w-full h-full object-cover transition-transform duration-500 scale-105 group-hover:scale-100 grayscale-[0.15]"
             />

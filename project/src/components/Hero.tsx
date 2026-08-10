@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, Github, Mail, Linkedin, FileText } from 'lucide-react';
+import { ArrowDown, Github, Mail, Linkedin } from 'lucide-react';
 import HeroScene from './HeroScene';
-import resumeUrl from '../resume/shivani_RESUME.pdf';
 
 const container = {
   hidden: { opacity: 0 },
@@ -71,14 +70,6 @@ export default function Hero() {
               <span className="relative z-10">Explore Projects</span>
             </a>
             
-            <a
-              href={resumeUrl}
-              download="Shivani_Shet_Resume.pdf"
-              className="glass flex items-center gap-2 rounded-full px-8 py-3.5 font-medium text-slate-100 transition-all hover:border-neon-cyan/60 hover:shadow-neon-cyan hover:bg-neon-cyan/5"
-            >
-              <FileText size={16} /> Download Resume
-            </a>
-
             <a
               href="#contact"
               className="glass rounded-full px-8 py-3.5 font-medium text-slate-100 transition-all hover:border-neon-purple/60 hover:shadow-neon-purple hover:bg-neon-purple/5"
